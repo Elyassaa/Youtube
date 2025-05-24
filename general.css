@@ -1,0 +1,24 @@
+p {
+  font-family: roboto, arial;
+  font-size: 14px;
+  font-weight: 400px;
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  margin: 0px;
+  width: 100%;
+  padding-top: 70px;
+}
+.menu{
+  width: 90%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex: 220px 1;
+  margin: 0px;
+  padding: 0;
+  
+
+}

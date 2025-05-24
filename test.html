@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: green;
+      color: whitesmoke;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .google{
+      position:absolute ; /* Allow for absolute positioning */
+      top: 40%; /* Position the image vertically at the center */
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      border-radius: 10px;
+    }
+    .search-bar{
+      position:absolute ; /* Allow for absolute positioning */
+      top: 50%; /* Position the image vertically at the center */
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      width: 600px;
+      height: 30px;
+      border-radius: 24px;
+      border-color: black;
+      background-color: white;
+      padding: 2px;
+    }
+    .url{
+      position: absolute;
+      top: 55%;
+      left: 22%;
+      width: 50px;
+      border-radius: 100px;
+    }
+    .url:hover{
+      cursor: pointer;
+    }
+    .title{
+      position: absolute;
+      top: 60%;
+      left: 21%;
+      width: 50px;
+    }
+  </style>
+</head>
+<body>
+  <img class="google" src="Pictures/google.png" alt="google">
+  <input class="search-bar" type="text" placeholder="Search Google or type a URL" >
+  <a href="youtube.html">
+    <img class="url" src="Pictures/yotb-log.png" link="https://www.youtube.com/">
+    <p class="title">Youtube</p>
+  </a>
+
+  
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+.header{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex: 320px 1 300px  ;
+  flex-direction: row;
+  justify-content:space-between;
+  background-color: white;
+  position: fixed;
+  background-attachment: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1000px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 240, 240);
+}
+.left-section{
+  width: 320px;
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+  padding-left: 8px;
+}
+.logo{
+  width: 100px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.country{
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+.icon3{
+  width: 26px;
+  margin-top: 4px; 
+  padding: 0;
+}
+.button-icon3{
+  border: none;
+  margin-left: 15px; 
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+
+.middle-section{
+  display: flex;
+  flex: 1 1;
+  justify-content:center;
+  align-items: center;
+}
+
+.search-bar{
+flex: 1;
+height: 30px;
+padding-left: 9px;
+border-style: solid;
+border-radius: 30px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-color: rgb(192, 192, 192);
+border-width: 1px;
+font-size: 16px;
+width: 0; 
+}
+
+.search-bar::placeholder{
+  font: Roboto, Arial;
+  font-size: 16px;
+}
+
+.misearch{
+  display: flex;
+  align-items:center;
+  width: 35px;
+  height: 34px;
+  margin: -3px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 30px;
+  border-style:solid;
+  border-color: rgb(192, 192, 192);
+  border-width: 1px; 
+  border-top-left-radius: 0px ;
+  border-bottom-left-radius: 0px;
+
+  }
+.misearch:hover{
+  cursor: pointer;
+  background-color: rgb(224, 224, 224)
+}
+.button-voice-search{
+  height: 35px;
+  width: 35px;
+  margin-left: 13px;
+  border: none;
+  border-radius: 90px;
+  background-color: rgb(240, 240, 240);
+}
+.voice-search{
+  width: 15px;
+}
+.button-voice-search:hover{
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+  transition: 0.15s;
+}
+
+.right-section{
+  width: 200px;
+  padding: 2px;
+  display: flex;
+  flex: 50px 30px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon1{
+  width: 30px;
+}
+.icon2{
+  width: 35px;
+}
+.icon0{
+  width: 30px;
+  margin-bottom: 3px;
+  padding: 4px;
+}
+
+.icon0:hover{
+  transition: 0.15s;
+  cursor: pointer;
+  border-radius: 70px; 
+  background-color: rgb(224, 224, 224);
+}
+.button-icon1,
+.button-icon2{
+  border: none;
+  background-color: transparent;
+}
+.button-icon2:hover{
+  transition: 0.15s;
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+  border-radius: 110px;
+}
+
+.button-icon1:hover{
+  transition: 0.15s;
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+  border-radius: 70px;
+}
+
+.icon3:hover{
+  cursor: pointer; 
+  border-radius: 10% ;
+}

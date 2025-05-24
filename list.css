@@ -1,0 +1,144 @@
+.list{
+  background-color: white;
+  max-width: 200px;
+  border-color:lightgray;
+  border-width: 1px;
+  border-left: 0;
+  border-top:0;
+  border-bottom:0;
+  border-style: double;
+  border-radius: 1px;
+  display: block;
+  grid-template-columns: 1;
+  padding-top: 8px;
+  margin: 0;
+}
+.icon{
+  width: 26px;
+  margin-right: 20px;
+}
+.list-bar{
+  height: 35px;
+  width: 90%;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  border-style: hidden;
+  border-color: gray;
+  background-color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 12px;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.list-bar-name:hover,
+.list-bar:hover{
+  transition: 0.15s;
+  border-style: hidden;
+  border-color: transparent;
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+.list-bar-name{
+  height: 35px;
+  width: 90%;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  border-style: hidden;
+  border-color: gray;
+  background-color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 12px;
+  align-items: center;
+  padding-left: px;
+  padding-right: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#live{
+  display: grid;
+  grid-template-columns: 29px 1fr 1fr;
+  column-gap: 10%;
+  justify-content: space-between;
+}
+
+.txt{
+  display: flex;
+  align-items: start;
+  margin: 14px;
+  margin-left: 19px; 
+  font-weight: bold;
+  font-size: 14px;
+} 
+.text{
+  display: flex;
+  font-family: 'Brush Script MT', cursive;
+  align-items: start;
+  margin: 14px;
+  margin-right: 5px;
+  font-size: 14px;
+} 
+#channel-picture{
+ width: 26px;
+ height: 26px;
+border-radius: 52px;}
+#sml{
+  width: 30px;
+  margin-left: -3px;
+}
+#small{
+  margin-right: 11px;
+  margin-left: -6px;
+  width: 40px;
+  color:black;
+}
+#big{
+  width: 23px;
+  margin-left: 2px;
+}
+
+#big1{
+  width: 20px;
+  margin-left: 5px;
+}
+#liv{
+  display:flex;
+  justify-content: end;
+  align-items: end;
+  width: 16px;
+}
+
+#music,
+#cup{
+  margin-left: -5px;
+  width: 33px;
+}
+
+#v-games{
+  width: 13%;
+}
+
+#msc{
+  width: 18px;
+}
+
+#tndnc{
+  width: 12%;
+}
+#music{
+  width: 29px;
+}
+#kids{
+  margin-left: -2px;
+}
+.flex{
+  display: flex;
+}
+.flex:hover{
+  cursor: pointer;
+}

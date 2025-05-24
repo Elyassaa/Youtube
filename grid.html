@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Grid tutorial</title>
+  </head>
+  <body style=" padding-bottom: 100px;">
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px;
+        ">
+        <div style="background-color: aqua;">div 1</div>
+        <div style="background-color: pink;">div 2</div>
+    </div>
+
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        margin-top: 10px;
+        ">
+        <div style="background-color: aqua;">div<p>paragraph</p></div>
+        <div style="background-color: pink;">div 2</div>
+        <div style="background-color: aqua;">div 3</div>
+    </div>
+
+    
+    <div style="
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      height:200px;
+      column-gap: 10px;
+      row-gap: 10px;
+      ">
+      <div style="background-color: aqua;">div 0</div>
+      <div style="background-color: pink;">div 1</div>
+      <div style="background-color: aqua;">div 2</div>
+      <div style="background-color: pink;">div 3</div>
+      <div style="background-color: pink;">div 4</div>
+      <div style="background-color: aqua;">div 5</div>
+      <div style="background-color: pink;">div 6</div>
+      <div style="background-color: aqua;">div 7</div>
+    </div>
+    <a href="https://filecr.com/en/">File.cr</a>
+    <style>
+      .ee{
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr ;
+        column-gap:20px ;
+        row-gap: 200px;
+        background-color: blanchedalmond;
+      }
+      .profile-picture{
+        width: 50px;
+        border-radius: 30px;
+      }
+      .pub-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+    </style>
+
+    <div class="ee">
+      <div class="video-grid">
+        <div class="video">
+          <div>
+            <img class="subject-piture" src="Pictures/7.png">
+          </div>
+          <div class="pub-info-grid">
+            <div>
+              <img class="profile-picture" src="Pictures/yotb-log.png">
+            </div>
+            <div>
+              <div class="publicatin-title "><p>View of a nature</p></div>
+              <div class="youtuber-name"><p>Djohn jily</p></div>
+              <div class="publicatin-info"><p>3.4M &#183 2 Months ago</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="video-grid">
+        <div class="video">
+          <div>
+            <img class="subject-piture" src="Pictures/6.png">
+          </div>
+          <div class="pub-info-grid">
+            <div>
+              <img class="profile-picture" src="Pictures/moon.png">
+            </div>
+            <div>
+              <div class="publicatin-title "><p>View of a nature</p></div>
+              <div class="youtuber-name"><p>Djohn jily</p></div>
+              <div class="publicatin-info"><p>3.4M &#183 2 Months ago</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <div class="video-grid">
+        <div class="video">
+          <div>
+            <img class="subject-piture" src="Pictures/5.png">
+          </div>
+          <div class="pub-info-grid">
+            <div>
+              <img class="profile-picture" src="Pictures/nationl.png">
+            </div>
+            <div>
+              <div class="publicatin-title "><p>View of a nature</p></div>
+              <div class="youtuber-name"><p>Djohn jily</p></div>
+              <div class="publicatin-info"><p>3.4M &#183 2 Months ago</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main" style="display: grid; grid-template-columns: 100px 1fr;">
+      <div class="list">
+        <img style="width: 50px;" src="/Pictures/lik.png" alt="">
+      </div>
+      <div class="product" style="display: grid; grid-template-columns: 100px 100px;">
+        <div>
+          <img style="width: 90px;" src="/Pictures/8.png" alt="">
+        </div>
+        <div ><img style="width: 50px;" src="/Pictures/like.png" alt=""></div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

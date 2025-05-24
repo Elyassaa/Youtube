@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Header</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Fixed Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px; /* Adjust height as needed */
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000; /* Ensures it stays on top of other elements */
+    }
+
+    /* Main Content */
+    main {
+      margin-top: 60px; /* Same height as the header to avoid overlap */
+      padding: 20px;
+      background-color: #f4f4f4;
+      min-height: 200vh; /* For testing scroll */
+    }
+
+    /* Header Styling */
+    header h1 {
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Fixed Header</h1>
+  </header>
+  <main>
+    <p>Scroll down to see the content appear underneath the header.</p>
+    <p>This is a simple demonstration of a fixed header.</p>
+  </main>
+</body>
+</html>

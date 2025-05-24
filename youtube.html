@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.yass</title>
+    <link href="/Pictures/favicon_32x32.png" alt="" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco+Guides&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="list.css">
+    
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <button class="button-icon3">
+          <img class="icon3" src="/Pictures/10.png" alt="">
+        </button>
+        <img class="logo" src="/Pictures/w.png">
+        <div class="country">DZ</div>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+      
+        <button class="misearch">
+          <img style="width: 20px;" src="/Pictures/13.png" alt="">
+        </button>
+        <button class="button-voice-search">
+          <img class="voice-search" src="/Pictures/12.png" alt="">
+        </button>
+      </div>
+      <div class="right-section">
+          <button class="button-icon2"><img class="icon2" src="/Pictures/9-Photoroom (1).png" alt=""></button>
+          <button class="button-icon1">
+            <img class="icon1" src="/Pictures/notific.png" alt="">
+          </button>
+            <img class="icon0" src="/Pictures/acount.png" alt="">     
+      </div>
+    </div> 
+    <div class="menu">
+      <div class="list">
+        <button class="list-bar">
+          <img class="icon" src="/Pictures/list/home.png" alt=""> 
+          Accueil
+        </button>
+        <button class="list-bar">
+          <img class="icon" src="/Pictures/list/shorts.png" alt="">
+          Shorts 
+        </button>
+        <button class="list-bar">
+          <img class="icon" src="/Pictures/list/abonnement.png" alt="">
+          Abonnements
+        </button>
+        <hr>
+        <button class="list-bar-name">
+          <p class="txt"> Vous <span style="font-weight: 1;margin-left: 5px; font-size: 15px;">&gt;</span> </p>
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/historique.png" alt="" class="icon" id="sml">
+          Historique
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/playlist.png" alt="" class="icon">
+          Playlists
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/vos-videos.png" alt="" class="icon" id="small">
+          Vos vidéos
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/plustard.png" alt="" class="icon" id="big">
+          plus tard
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/like.png" alt="" class="icon" id="big1">
+          Vidéos
+        </button>
+        <hr>
+        <!--The Abonnement class: -->
+        <p class="txt" >Abonnements</p>  
+        <button class="list-bar" id="live">
+          <div>
+            <img src="/Pictures/nationl.png" alt="" class="icon" id="channel-picture">
+          </div>
+          <div>
+            NaGeo 
+          </div>
+          <div>
+            <img src="/Pictures/9-Photoroom (1).png" alt="" class="icon" id="liv">
+          </div>
+        </button>
+        <button class="list-bar"  id="live">
+          <div>
+            <img src="/Pictures/count.png" alt="" class="icon" id="channel-picture">
+          </div>
+          <div>Teşkilat</div>
+          <div>
+            <img src="/Pictures/9-Photoroom (1).png" alt="" class="icon" id="liv">
+          </div>
+        </button>
+        <div>
+          <button class="list-bar"  id="live">
+            <div>
+              <img src="/Pictures/7.png" alt="" class="icon" id="channel-picture">
+            </div>
+            <div>Tourism</div>
+            <div>
+              <img src="/Pictures/9-Photoroom (1).png" alt="" class="icon" id="liv">
+            </div>
+          </button>
+        </div>
+        <button class="list-bar"  id="live">
+          <div>
+            <img src="/Pictures/4.png" alt="" class="icon" id="channel-picture">
+          </div>
+          <div>smile_22</div>
+          <div>
+            <img src="/Pictures/9-Photoroom (1).png" alt="" class="icon" id="liv">
+          </div>
+        </button>
+        <button class="list-bar"  id="live">
+          <div>
+            <img src="/Pictures/yass3.png" alt="" class="icon" id="channel-picture">
+          </div>
+          <div> أخبار الطقس </div>
+          <div >
+            <img src="/Pictures/download (1).png" alt="" class="icon" id="liv">
+          </div>
+        </button>
+        <hr>
+        <!--The Explorer -->
+        <p class="txt" >Explorer</p>
+        <button class="list-bar">
+          <img src="/Pictures/list/tendance.png" alt="" class="icon" id="tndnc">
+          Tendances
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/music.png" alt="" class="icon" id="msc">
+          Musique
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/video-game.png" alt="" class="icon" id="v-games">
+          Jeux vidéo
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/SPORT.png" alt="" class="icon" id="cup">
+          Sport
+        </button>
+        <hr> 
+        <!--Autre youtube -->
+        <p class="txt" >Autre contenus YouTube</p>
+        <button class="list-bar">
+          <img src="/Pictures/list/ytbprm.png" alt="" class="icon" id="prmiem">
+          YouTube Premium
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/ytbstdio.png" alt="" class="icon" id="stdio">
+          YouTube Studio
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/ytbmsic.png" alt="" class="icon" id="music">
+          YouTube Music
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/ytbkids.png" alt="" class="icon" id="kids">
+          YouTube Kids
+        </button>
+        <hr>
+        <!-- setting-->
+        <button class="list-bar">
+          <img src="/Pictures/list/setting.png" alt="" class="icon" id="" style="width: 32px; margin-left: -3px;">
+          Paramétres
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/flaghisto.png" alt="" class="icon" id="msc" style="width: 23px; margin-left: 2px;">
+          YouTube Studio
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/aide.png" alt="" class="icon" id="" style="width: 24px; margin-left: 1px;" >
+          Aide
+        </button>
+        <button class="list-bar">
+          <img src="/Pictures/list/message.png" alt="" class="icon" id="msg" style="width: 24px;margin-left: 5px;">
+          YouTube Kids
+        </button>
+        <hr>
+        <!-- End message -->
+        <div class="flex">
+          <p  class="text">
+          Présentation Presse 
+          Droits d'auteur Nous contacter
+          Créateurs Publicité
+          Développeurs <br>
+          Conditions d'utilisation
+          Confidentialité
+          Règles et sécurité
+          Premiers pas sur YouTube
+          Tester de nouvelles
+          fonctionnalités 
+          <br></p>
+        </div> 
+        <span class="text">
+          &copy;2025 Google LLC
+        </span>
+      </div> <!--Close tag end list-->
+      <div class="video-grid" >
+        <!--New video -->
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/1.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/count.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Island Cascades: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!--New video -->
+        <div class="video"> 
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/2.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/nationl.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Tiger Mentality: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!--New video -->
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/3.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--New vidoe-->
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/3.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--New Video-->
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/3.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--New Video-->
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/3.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--New video -->    
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/4.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--New video -->
+        <div class="video">
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/5.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!--New video -->
+        <div class="video"> 
+          <div class="video-priview">
+            <div>
+              <img class="nature" src="Pictures/6.png">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="Pictures/moon.png" >
+              </div>
+              <div class="video-info">
+                <div>
+                  <p class="video-title">Butterfly Beauty: Nature's Beauty in the Embrace of the Sky</p>
+                </div>
+                <div>
+                  <p class="video-author">Skyfall Cascades</p>
+                </div>
+                <div>
+                  <p class="video-state"> 3.4M views &#183; 3 monts ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

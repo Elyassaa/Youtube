@@ -1,0 +1,57 @@
+.nature{
+  width: 350px;
+  height: 200px;
+  /* object-fit: contain;  /* to make the outfit of te oicture good contain, cover .. */
+  /* object-position: top; /* the position top, buttom, left, right */
+}
+.video-grid{
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  grid-template-columns:  1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  flex-shrink: 0;
+
+}
+
+.video-privew{
+  display: block;
+  width: 100%;
+}
+.video-title{
+  color: rgba(15, 15, 15, 15);
+  margin-top: 0;
+  width: 250px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.video-author,
+.video-state{
+  display: block;
+  color: rgb(96,96, 96);
+  font-size: 14px;
+}
+.channel-picture{
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.profile-picture{
+  width: 100%;
+  display: inline-block;
+  border-radius: 30px;
+}
+.video-info-grid{
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+.video-info{
+margin-left: 4px;
+display: inline-block;
+width: 100px;
+}
